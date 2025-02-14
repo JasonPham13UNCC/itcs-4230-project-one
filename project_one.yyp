@@ -35,6 +35,7 @@
   "name":"project_one",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"tileMap","path":"sprites/tileMap/tileMap.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
