@@ -35,6 +35,8 @@
   "name":"project_one",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"dark_wizard","path":"sprites/dark_wizard/dark_wizard.yy",},},
+    {"id":{"name":"skeleton","path":"sprites/skeleton/skeleton.yy",},},
     {"id":{"name":"tileMap","path":"sprites/tileMap/tileMap.yy",},},
   ],
   "resourceType":"GMProject",
