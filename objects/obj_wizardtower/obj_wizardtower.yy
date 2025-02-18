@@ -4,12 +4,17 @@
   "eventList":[],
   "managed":true,
   "name":"obj_wizardtower",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"health","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
+  ],
   "parent":{
     "name":"towers",
     "path":"folders/Objects/towers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_basictower",
+    "path":"objects/obj_basictower/obj_basictower.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_magic_tower",
+    "path":"sprites/spr_magic_tower/spr_magic_tower.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

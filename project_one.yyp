@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"goblins","folderPath":"folders/Objects/goblins.yy","name":"goblins","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"tower_attacks","folderPath":"folders/Objects/tower_attacks.yy","name":"tower_attacks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"towers","folderPath":"folders/Objects/towers.yy","name":"towers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -40,6 +41,7 @@
   },
   "name":"project_one",
   "resources":[
+    {"id":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},},
     {"id":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},},
     {"id":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},},
     {"id":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},},
