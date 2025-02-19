@@ -1,18 +1,26 @@
-// detection of foes
 
-var target = variable_instance_set(x,y, obj_basicgoblin);
+
+
 
 
 // hitting foes
-
-if(distance_to_object(obj_basicgoblin) < tower_range) {
+// detection if foes exist 
+if(instance_exists(obj_basicgoblin)) {
 	if(shoot) {
 		
-		// creates projectial 
-		instance_create_layer(x,y, "Instances", bullet) 
+		
+		// gets nearest foe
+		var target = instance_nearest(x,y, obj_basicgoblin);
+		
+		
+		
+		if(distance_to_point(target.x, target.y) < tower_range) {
+			// creates projectial 
+			instance_create_layer(x,y, "Instances", bullet) 
 	
-		//how quick it can shoot
-		shoot = false;
-		alarm[0] = att_speed; 
+			//how quick it can shoot
+			shoot = false;
+			alarm[0] = att_speed; 
+		}
 	}
 }
