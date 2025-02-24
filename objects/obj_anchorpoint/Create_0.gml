@@ -1,0 +1,14 @@
+mouseHovering = false;
+leftClick = false;
+origX = 0;
+origY = 0;
+testX = 0;
+testY = 0;
+large = false;
+whileLoop = false;
+onlyOnce = false;
+largestX = (obj_anchorpoint.image_xscale) * 1.5;
+largestY = (obj_anchorpoint.image_yscale) * 1.5;
+theChecker = true;
+globalvar closestAnchor;
+globalvar closestAnchorOld;
