@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings":[
+    {"name":"mechanics","order":1,"path":"folders/Objects/mechanics.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_anchorpoint_dist","order":1,"path":"objects/obj_anchorpoint_dist/obj_anchorpoint_dist.yy",},
+    {"name":"obj_basicgoblin","order":1,"path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},
+    {"name":"obj_global_counter","order":2,"path":"objects/obj_global_counter/obj_global_counter.yy",},
+    {"name":"obj_HAPPY","order":2,"path":"objects/obj_HAPPY/obj_HAPPY.yy",},
+    {"name":"obj_tallgoblin","order":2,"path":"objects/obj_tallgoblin/obj_tallgoblin.yy",},
+    {"name":"GREEEEEEEENNNN","order":1,"path":"sprites/GREEEEEEEENNNN/GREEEEEEEENNNN.yy",},
+    {"name":"spr_anchorpoint","order":2,"path":"sprites/spr_anchorpoint/spr_anchorpoint.yy",},
+    {"name":"spr_HAPPY","order":3,"path":"sprites/spr_HAPPY/spr_HAPPY.yy",},
+  ],
+}
