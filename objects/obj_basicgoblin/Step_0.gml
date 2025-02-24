@@ -18,11 +18,8 @@ var target = instance_nearest(x,y,obj_maincastle)
             //destroy the tower if HP is 0 or less
             if (target.hp <= 0) {
                 instance_destroy(target);
-				 //look for the next closest tower
-                if (instance_exists(obj_maincastle)) {
-                    var target = instance_nearest(x,y,obj_maincastle)
-					move_towards_point(target.x,target.y, speed);
-                }
+				 //TODO:look for the next closest tower
+                
             }
         }
     }
