@@ -1,8 +1,3 @@
-
-
-
-
-
 // hitting foes
 // detection if foes exist 
 if(instance_exists(obj_basicgoblin)) {
