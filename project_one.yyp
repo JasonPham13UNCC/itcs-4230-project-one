@@ -39,7 +39,9 @@
     {"$GMFolder":"","%Name":"ground","folderPath":"folders/Tile Sets/ground.yy","name":"ground","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"INTRO STORY.mp4","CopyToMask":-1,"filePath":"datafiles","name":"INTRO STORY.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{

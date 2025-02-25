@@ -1,14 +1,14 @@
 if(instance_exists(obj_maincastle)) {
-var target = instance_nearest(x,y,obj_maincastle)
+target = instance_nearest(x,y,obj_maincastle)
 
 
 	if(distance_to_point(target.x, target.y) > attack_range) {
 		//move towards point
-		move_towards_point(target.x,target.y, speed)
+		move_towards_point(target.x,target.y, speed_of_movement)
 	
 	} else {
         //stop moving when in attack range
-        move_towards_point(target.x, target.y, 0);
+        speed = 0
 
         //attacking the tower
         if (attack_timer <= 0) {
@@ -16,7 +16,7 @@ var target = instance_nearest(x,y,obj_maincastle)
             attack_timer = attack_cooldown; //reset attack cooldown
 
             //destroy the tower if HP is 0 or less
-            if (target.hp <= 0) {
+            if (target != noone and target.hp <= 0) {
                 instance_destroy(target);
 				 //TODO:look for the next closest tower
                 
