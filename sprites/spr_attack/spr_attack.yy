@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_attack",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":32,
-  "bbox_left":23,
-  "bbox_right":41,
+  "bbox_left":37,
+  "bbox_right":39,
   "bbox_top":28,
   "collisionKind":1,
   "collisionTolerance":0,

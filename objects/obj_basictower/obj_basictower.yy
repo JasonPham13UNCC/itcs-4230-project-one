@@ -33,8 +33,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"tower_range","filters":[],"listItems":[],"multiselect":false,"name":"tower_range","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"att_speed","filters":[],"listItems":[],"multiselect":false,"name":"att_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"180","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"tower_range","filters":[],"listItems":[],"multiselect":false,"name":"tower_range","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"600","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"att_speed","filters":[],"listItems":[],"multiselect":false,"name":"att_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"bullet","filters":[],"listItems":[],"multiselect":false,"name":"bullet","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_basic_attack","varType":5,},
   ],
   "resourceType":"GMObject",
