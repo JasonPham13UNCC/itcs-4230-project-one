@@ -71,6 +71,7 @@
     {"id":{"name":"obj_wizardgoblin","path":"objects/obj_wizardgoblin/obj_wizardgoblin.yy",},},
     {"id":{"name":"obj_wizardtower","path":"objects/obj_wizardtower/obj_wizardtower.yy",},},
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
+    {"id":{"name":"rm_green","path":"rooms/rm_green/rm_green.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"test","path":"rooms/test/test.yy",},},
@@ -105,6 +106,7 @@
     {"roomId":{"name":"test","path":"rooms/test/test.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
+    {"roomId":{"name":"rm_green","path":"rooms/rm_green/rm_green.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
