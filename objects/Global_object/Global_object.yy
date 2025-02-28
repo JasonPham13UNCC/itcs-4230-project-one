@@ -1,19 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_talltower",
-  "eventList":[],
+  "%Name":"Global_object",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_talltower",
+  "name":"Global_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"towers",
-    "path":"folders/Objects/towers.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_basictower",
-    "path":"objects/obj_basictower/obj_basictower.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
