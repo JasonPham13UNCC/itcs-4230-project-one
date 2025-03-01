@@ -84,6 +84,7 @@
     {"id":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"test","path":"rooms/test/test.yy",},},
+    {"id":{"name":"seq_bacicgoblin_move","path":"sequences/seq_bacicgoblin_move/seq_bacicgoblin_move.yy",},},
     {"id":{"name":"GREEEEEEEENNNN","path":"sprites/GREEEEEEEENNNN/GREEEEEEEENNNN.yy",},},
     {"id":{"name":"ice_tower_2","path":"sprites/ice_tower_2/ice_tower_2.yy",},},
     {"id":{"name":"spr_air","path":"sprites/spr_air/spr_air.yy",},},
