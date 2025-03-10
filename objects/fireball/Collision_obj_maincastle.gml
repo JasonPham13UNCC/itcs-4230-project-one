@@ -1,9 +1,11 @@
 
 
 // gets health from foe and subtracts that amount and if they die remove them.
-other.health -= damage
+if(instance_exists(target)) {
+target.health -= damage
+}
 
-if(other.health < 0) {
+if(target.health < 0 and instance_exists(target)) {
 	instance_destroy(other)
 }
 
