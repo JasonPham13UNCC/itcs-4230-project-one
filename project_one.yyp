@@ -120,6 +120,7 @@
     {"id":{"name":"spr_menu_pause","path":"sprites/spr_menu_pause/spr_menu_pause.yy",},},
     {"id":{"name":"spr_shop_button_gray","path":"sprites/spr_shop_button_gray/spr_shop_button_gray.yy",},},
     {"id":{"name":"spr_shop_button","path":"sprites/spr_shop_button/spr_shop_button.yy",},},
+    {"id":{"name":"spr_skeleton_attacking","path":"sprites/spr_skeleton_attacking/spr_skeleton_attacking.yy",},},
     {"id":{"name":"spr_skeleton","path":"sprites/spr_skeleton/spr_skeleton.yy",},},
     {"id":{"name":"spr_tower","path":"sprites/spr_tower/spr_tower.yy",},},
     {"id":{"name":"spr_wind","path":"sprites/spr_wind/spr_wind.yy",},},
