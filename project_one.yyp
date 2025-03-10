@@ -50,6 +50,7 @@
   "name":"project_one",
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"fireball","path":"objects/fireball/fireball.yy",},},
     {"id":{"name":"obj_anchorpoint_dist","path":"objects/obj_anchorpoint_dist/obj_anchorpoint_dist.yy",},},
     {"id":{"name":"obj_anchorpoint","path":"objects/obj_anchorpoint/obj_anchorpoint.yy",},},
     {"id":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},},
@@ -109,8 +110,10 @@
     {"id":{"name":"spr_wind","path":"sprites/spr_wind/spr_wind.yy",},},
     {"id":{"name":"spr_winter","path":"sprites/spr_winter/spr_winter.yy",},},
     {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},},
+    {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},},
     {"id":{"name":"tile_forest","path":"tilesets/tile_forest/tile_forest.yy",},},
     {"id":{"name":"tile_winter","path":"tilesets/tile_winter/tile_winter.yy",},},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

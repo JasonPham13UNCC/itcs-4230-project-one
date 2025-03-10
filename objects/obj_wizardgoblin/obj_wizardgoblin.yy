@@ -1,15 +1,26 @@
 {
   "$GMObject":"",
   "%Name":"obj_wizardgoblin",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_wizardgoblin",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"attack_range","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"attack_damage","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+  ],
   "parent":{
     "name":"goblins",
     "path":"folders/Objects/goblins.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_basicgoblin",
+    "path":"objects/obj_basicgoblin/obj_basicgoblin.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +38,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_dark_wizard",
+    "path":"sprites/spr_dark_wizard/spr_dark_wizard.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
