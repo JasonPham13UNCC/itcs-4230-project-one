@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shader_grey_shop_buttons",
+  "name":"shader_grey_shop_buttons",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

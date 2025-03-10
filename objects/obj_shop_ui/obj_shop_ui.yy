@@ -9,8 +9,8 @@
   "name":"obj_shop_ui",
   "overriddenProperties":[],
   "parent":{
-    "name":"mechanics",
-    "path":"folders/Objects/mechanics.yy",
+    "name":"shop_ui",
+    "path":"folders/Objects/shop_ui.yy",
   },
   "parentObjectId":null,
   "persistent":false,
