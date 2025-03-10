@@ -1,7 +1,7 @@
 //get target
 
 
-
+audio_play_sound(snd_arrow,1,false)
 var target = instance_nearest(x,y,obj_basicgoblin)
 
 var ran = random_range(-random_varation, random_varation)

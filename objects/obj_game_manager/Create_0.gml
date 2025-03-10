@@ -1,1 +1,2 @@
-global.level = 0
+round_number = 0
+audio_play_sound(snd_music,1,true)

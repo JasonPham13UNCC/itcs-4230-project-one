@@ -1,15 +1,20 @@
+if (round_start) {
+    round_start = false;
+    
+    var enemy_count = 1+ round_number * 2;
 
-if(round_start) {
-	round_start = false;
-	
-for(var i=0; i < 10 + round_number*2; i++) {
-	
+    for (var i = 0; i < enemy_count; i++) {
+        var spawn_y = irandom_range(sprite_yoffset, room_height - 1);
+        instance_create_layer(x, spawn_y, "Instances", obj_basicgoblin);
+    }
 
-y= irandom_range(sprite_xoffset, room_height-1)
+    if (round_number >= 4) {
+        var boss_count = round_number - 2;
+        for (var j = 0; j < boss_count; j++) {
+            var spawn_y = irandom_range(sprite_yoffset, room_height - 1);
+            instance_create_layer(x, spawn_y, "Instances", obj_wizardgoblin);
+        }
+    }
 
-
-instance_create_layer(x,y,"Instances", enemy);
-}
-alarm[0]=60*30
-
+    alarm[0] = 60 * 30;
 }
