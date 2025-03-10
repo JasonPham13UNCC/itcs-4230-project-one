@@ -1,4 +1,8 @@
+if(state = State.moving) {
 
+}
+
+//sprite_get_number()
 
 if(instance_exists(obj_maincastle)) {
 target = instance_nearest(x,y,obj_maincastle)
