@@ -13,7 +13,10 @@
     "name":"tower_attacks",
     "path":"folders/Objects/tower_attacks.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_parent",
+    "path":"objects/obj_parent/obj_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

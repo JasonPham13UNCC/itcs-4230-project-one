@@ -8,18 +8,12 @@
   ],
   "managed":true,
   "name":"fireball",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"propertyId":{"name":"damage","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"propertyId":{"name":"speed","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"goblins",
     "path":"folders/Objects/goblins.yy",
   },
-  "parentObjectId":{
-    "name":"obj_basic_attack",
-    "path":"objects/obj_basic_attack/obj_basic_attack.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
