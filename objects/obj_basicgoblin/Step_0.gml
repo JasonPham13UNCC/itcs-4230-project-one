@@ -1,8 +1,8 @@
-if(state = State.moving) {
-
+if(state == State.moving) {
+	sprite_index = spr_skeleton_walk
 }
 
-//sprite_get_number()
+
 
 if(instance_exists(obj_maincastle)) {
 target = instance_nearest(x,y,obj_maincastle)
@@ -12,13 +12,14 @@ target = instance_nearest(x,y,obj_maincastle)
 	//move towards point
 		move_towards_point(target.x,target.y, speed_of_movement)
 	
-		if(distance_to_point(target.x, target.y) <attack_range) {
+		if(distance_to_point(target.x, target.y) <= attack_range) {
 			state = State.attacking
 		}
 	}
 
 	if(state == State.attacking) {
 		speed=0
+		sprite_index = spr_skeleton_attacking
 		
 		if(attack) {
 			alarm[0] = attack_cooldown
