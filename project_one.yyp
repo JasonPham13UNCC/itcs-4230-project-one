@@ -114,7 +114,6 @@
     {"id":{"name":"spr_ice","path":"sprites/spr_ice/spr_ice.yy",},},
     {"id":{"name":"spr_keep","path":"sprites/spr_keep/spr_keep.yy",},},
     {"id":{"name":"spr_magic_tower","path":"sprites/spr_magic_tower/spr_magic_tower.yy",},},
-    {"id":{"name":"spr_menu_art_draft","path":"sprites/spr_menu_art_draft/spr_menu_art_draft.yy",},},
     {"id":{"name":"spr_menu_button","path":"sprites/spr_menu_button/spr_menu_button.yy",},},
     {"id":{"name":"spr_menu_pause","path":"sprites/spr_menu_pause/spr_menu_pause.yy",},},
     {"id":{"name":"spr_skeleton_attacking","path":"sprites/spr_skeleton_attacking/spr_skeleton_attacking.yy",},},
