@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shop_button_back",
+  "%Name":"obj_shop_button_enter",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_shop_button_back",
+  "name":"obj_shop_button_enter",
   "overriddenProperties":[],
   "parent":{
     "name":"shop_ui",
@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Back","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Shop","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
