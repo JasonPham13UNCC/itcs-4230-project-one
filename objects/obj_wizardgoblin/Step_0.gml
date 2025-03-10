@@ -23,7 +23,7 @@ target = instance_nearest(x,y,obj_maincastle)
 	
 	}
 	
-	if(target == noone) {
+	if(instance_exists(target)) {
 		state=State.moving
 		target = instance_nearest(x,y,obj_maincastle)
 	

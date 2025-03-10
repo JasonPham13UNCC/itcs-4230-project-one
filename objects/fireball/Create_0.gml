@@ -2,13 +2,12 @@
 
 
 
-var target = instance_nearest(x,y,obj_maincastle)
+target = instance_nearest(x,y,obj_maincastle)
 
-var ran = random_range(-random_varation, random_varation)
 //move towards point
 move_towards_point(target.x,target.y, speed)
 // attack facing the dirrection of the foe
-image_angle = point_direction(x,y,target.x+ ran,target.y+ran)
+image_angle = point_direction(x,y, target.x, target.y)
 
 
 alarm[0]=lifetime
