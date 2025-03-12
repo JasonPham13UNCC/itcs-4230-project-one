@@ -6,10 +6,12 @@ target = instance_nearest(x,y,obj_maincastle)
 
 	if(state== State.moving) {
 	//move towards point
+		sprite_index = spr_dark_wizard
 		move_towards_point(target.x,target.y, speed_of_movement)
 	
-		if(distance_to_point(target.x, target.y) <attack_range) {
+		if(distance_to_point(target.x, target.y) < attack_range) {
 			state = State.attacking
+			
 		}
 	}
 
@@ -17,13 +19,15 @@ target = instance_nearest(x,y,obj_maincastle)
 		speed=0
 		
 		if(attack) {
-			alarm[0] = attack_cooldown
+			sprite_index = spr_N_attack
 			attack= false
+			alarm[0] = 120
+			
 		}
 	
 	}
 	
-	if(instance_exists(target)) {
+	if(!instance_exists(target)) {
 		state=State.moving
 		target = instance_nearest(x,y,obj_maincastle)
 	
