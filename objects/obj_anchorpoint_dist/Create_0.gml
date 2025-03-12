@@ -5,7 +5,9 @@ canMake = true;
 for(i = 1; i <= 40; i ++){
 	
 	if(canMake = true){
+if((position_meeting(x,y,obj_basictower)) == false ||(position_meeting(x,y,obj_fire_tower)) == false || (position_meeting(x,y,obj_ice_tower)) == false || (position_meeting(x,y,obj_wizardtower)) == false){
 instance_create_layer(x, y, "Instances", obj_anchorpoint);
+}
 
 }
 	
