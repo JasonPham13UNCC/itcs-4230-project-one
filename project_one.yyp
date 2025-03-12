@@ -121,6 +121,7 @@
     {"id":{"name":"spr_magic_tower","path":"sprites/spr_magic_tower/spr_magic_tower.yy",},},
     {"id":{"name":"spr_menu_button","path":"sprites/spr_menu_button/spr_menu_button.yy",},},
     {"id":{"name":"spr_menu_pause","path":"sprites/spr_menu_pause/spr_menu_pause.yy",},},
+    {"id":{"name":"spr_N_attack","path":"sprites/spr_N_attack/spr_N_attack.yy",},},
     {"id":{"name":"spr_shop_button_gray","path":"sprites/spr_shop_button_gray/spr_shop_button_gray.yy",},},
     {"id":{"name":"spr_shop_button","path":"sprites/spr_shop_button/spr_shop_button.yy",},},
     {"id":{"name":"spr_skeleton_attacking","path":"sprites/spr_skeleton_attacking/spr_skeleton_attacking.yy",},},
