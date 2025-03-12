@@ -19,6 +19,6 @@ if(instance_exists(obj_basicgoblin)) {
 		}
 	}
 }
-if (hp < 30) {
+if (hp < 50) {
     part_particles_create(ps, x, y, ptc_fire, 1);
 }
