@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_anchorpoint_1",
-    "path":"sprites/spr_anchorpoint_1/spr_anchorpoint_1.yy",
+    "name":"spr_anchorpoint",
+    "path":"sprites/spr_anchorpoint/spr_anchorpoint.yy",
   },
   "spriteMaskId":null,
   "visible":true,
