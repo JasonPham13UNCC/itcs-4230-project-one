@@ -97,6 +97,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"test","path":"rooms/test/test.yy",},},
     {"id":{"name":"seq_bacicgoblin_move","path":"sequences/seq_bacicgoblin_move/seq_bacicgoblin_move.yy",},},
+    {"id":{"name":"sh_red_vignette","path":"shaders/sh_red_vignette/sh_red_vignette.yy",},},
     {"id":{"name":"shader_grey_shop_buttons","path":"shaders/shader_grey_shop_buttons/shader_grey_shop_buttons.yy",},},
     {"id":{"name":"snd_arrow","path":"sounds/snd_arrow/snd_arrow.yy",},},
     {"id":{"name":"snd_goblin_death","path":"sounds/snd_goblin_death/snd_goblin_death.yy",},},
