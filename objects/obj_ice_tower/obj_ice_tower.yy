@@ -7,7 +7,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},"propertyId":{"name":"bullet","path":"objects/obj_basictower/obj_basictower.yy",},"resource":{"name":"Obj_ice_shartd","path":"objects/Obj_ice_shartd/Obj_ice_shartd.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Obj_ice_shartd",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},"propertyId":{"name":"tower_range","path":"objects/obj_basictower/obj_basictower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1100",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"health","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"hp","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
   ],
   "parent":{
     "name":"towers",

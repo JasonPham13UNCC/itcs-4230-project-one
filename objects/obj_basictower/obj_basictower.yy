@@ -10,7 +10,7 @@
   "managed":true,
   "name":"obj_basictower",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"health","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"hp","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
   ],
   "parent":{
     "name":"towers",
