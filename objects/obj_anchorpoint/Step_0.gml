@@ -36,7 +36,7 @@ if(keyboard_check_pressed(vk_up) && keyboard_check_pressed(vk_down)){
 
 if (mouseHovering && mouse_check_button_pressed(mb_left)) 
 {
-		instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_HAPPY);
+		instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_basictower);
 		instance_destroy(closestAnchor);
 } 
 	

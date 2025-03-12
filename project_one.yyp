@@ -87,6 +87,7 @@
     {"id":{"name":"obj_spawner_x","path":"objects/obj_spawner_x/obj_spawner_x.yy",},},
     {"id":{"name":"obj_spawner_y","path":"objects/obj_spawner_y/obj_spawner_y.yy",},},
     {"id":{"name":"obj_tallgoblin","path":"objects/obj_tallgoblin/obj_tallgoblin.yy",},},
+    {"id":{"name":"obj_test_room_green","path":"objects/obj_test_room_green/obj_test_room_green.yy",},},
     {"id":{"name":"obj_wizardgoblin","path":"objects/obj_wizardgoblin/obj_wizardgoblin.yy",},},
     {"id":{"name":"obj_wizardtower","path":"objects/obj_wizardtower/obj_wizardtower.yy",},},
     {"id":{"name":"object_money","path":"objects/object_money/object_money.yy",},},
