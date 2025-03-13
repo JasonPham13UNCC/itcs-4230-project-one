@@ -7,3 +7,7 @@ if (!instance_exists(obj_basicgoblin) && !instance_exists(obj_wizardgoblin)) {
         spawner.round_start = true;
     }
 }
+
+if (keyboard_check(vk_alt) && keyboard_check_pressed(ord("M"))) {
+    score += 100;
+}
