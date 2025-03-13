@@ -29,7 +29,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"enemy","filters":[],"listItems":[],"multiselect":false,"name":"enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_wizardgoblin","path":"objects/obj_wizardgoblin/obj_wizardgoblin.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_wizardgoblin","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"round_number","filters":[],"listItems":[],"multiselect":false,"name":"round_number","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"round_number","filters":[],"listItems":[],"multiselect":false,"name":"round_number","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

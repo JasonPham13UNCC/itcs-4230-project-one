@@ -1,5 +1,6 @@
 if (round_start) {
-    round_start = false;
+    round_number ++;
+	round_start = false;
     
     var enemy_count = 1+ round_number * 2;
     

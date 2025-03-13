@@ -5,7 +5,7 @@ if(instance_exists(target)) {
 target.hp -= 30
 }
 
-if(target.hp < 0 and instance_exists(target)) {
+if(instance_exists(target) and target.hp < 0) {
 	instance_destroy(other)
 }
 
