@@ -1,17 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shop_button_tower",
+  "%Name":"obj_shop_button_tower_basic",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_shop_button_tower",
+  "name":"obj_shop_button_tower_basic",
   "overriddenProperties":[],
   "parent":{
     "name":"shop_ui",
     "path":"folders/Objects/shop_ui.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_shop_button_tower",
+    "path":"objects/obj_shop_button_tower/obj_shop_button_tower.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_shop_button_basic_tower",
+    "path":"sprites/spr_shop_button_basic_tower/spr_shop_button_basic_tower.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

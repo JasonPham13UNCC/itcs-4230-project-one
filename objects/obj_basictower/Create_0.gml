@@ -21,3 +21,4 @@ part_type_blend(ptc_fire, true);
 
 shoot = true
 
+buy = "basic tower"
