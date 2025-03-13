@@ -1,0 +1,8 @@
+y_start = 650;
+y_target = 200;
+anim_time = 0;
+anim_duration = 120;
+active = true;
+
+
+curve = animcurve_get_channel(ac_button_in, "curve1");

@@ -51,6 +51,7 @@
   },
   "name":"project_one",
   "resources":[
+    {"id":{"name":"ac_button_in","path":"animcurves/ac_button_in/ac_button_in.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fireball","path":"objects/fireball/fireball.yy",},},
     {"id":{"name":"obj_anchorpoint_dist","path":"objects/obj_anchorpoint_dist/obj_anchorpoint_dist.yy",},},
@@ -96,6 +97,7 @@
     {"id":{"name":"obj_wizardgoblin","path":"objects/obj_wizardgoblin/obj_wizardgoblin.yy",},},
     {"id":{"name":"obj_wizardtower","path":"objects/obj_wizardtower/obj_wizardtower.yy",},},
     {"id":{"name":"object_money","path":"objects/object_money/object_money.yy",},},
+    {"id":{"name":"ptc_fire","path":"particles/ptc_fire/ptc_fire.yy",},},
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_green","path":"rooms/rm_green/rm_green.yy",},},
