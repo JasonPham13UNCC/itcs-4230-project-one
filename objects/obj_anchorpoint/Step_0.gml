@@ -37,7 +37,7 @@ if(keyboard_check_pressed(vk_up) && keyboard_check_pressed(vk_down)){
 if (mouseHovering && mouse_check_button_pressed(mb_left)) 
 {
     //Make conditionals for each tower, basic, fire, ice, wizard
-    if(score >= 10 && buy == "basic tower") {
+    if(score >= 10 && global.buy == "basic tower") {
         var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_basictower);
         //instance_destroy(closestAnchor);
         visible = false
