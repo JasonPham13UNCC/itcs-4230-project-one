@@ -6,7 +6,7 @@ if(global.buy == "ice tower") {
     popup.text = "Cancelled Ice Tower Purchase!";
     global.buy = ""
 } else {
-    if(score >= 10) {
+    if(score >= 14) {
         popup.text = "Purchasing Ice Tower!";
         global.buy = "ice tower"
     } else {

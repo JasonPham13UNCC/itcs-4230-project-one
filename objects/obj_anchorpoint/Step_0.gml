@@ -34,14 +34,34 @@ if(keyboard_check_pressed(vk_up) && keyboard_check_pressed(vk_down)){
 	large  = false;
 }
 
-if (mouseHovering && mouse_check_button_pressed(mb_left)) 
-{
-    //Make conditionals for each tower, basic, fire, ice, wizard
-    if(score >= 10 && global.buy == "basic tower") {
-        var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_basictower);
-        //instance_destroy(closestAnchor);
-        visible = false
-        score -= 10
-    }
-} 
-	
+if(!tower_placed) {
+    if (mouseHovering && mouse_check_button_pressed(mb_left)) 
+    {
+        //Make conditionals for each tower, basic, fire, ice, wizard
+        if(score >= 10 && global.buy == "basic tower") {
+            var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_basictower);
+            //instance_destroy(closestAnchor);
+            tower_placed = true;
+            visible = false
+            score -= 10
+        } else if(score >= 12 && global.buy == "fire tower") {
+            var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_fire_tower);
+            //instance_destroy(closestAnchor);
+            tower_placed = true;
+            visible = false
+            score -= 12
+        } else if(score >= 14 && global.buy == "ice tower") {
+            var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_ice_tower);
+            //instance_destroy(closestAnchor);
+            tower_placed = true;
+            visible = false
+            score -= 14
+        } else if(score >= 16 && global.buy == "ice tower") {
+            var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_wizardtower);
+            //instance_destroy(closestAnchor);
+            tower_placed = true;
+            visible = false
+            score -= 16
+        }
+    } 
+}

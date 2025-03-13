@@ -7,6 +7,7 @@ testY = 0;
 large = false;
 whileLoop = false;
 onlyOnce = false;
+tower_placed = false;
 largestX = (obj_anchorpoint.image_xscale) * 1.5;
 largestY = (obj_anchorpoint.image_yscale) * 1.5;
 theChecker = true;
