@@ -14,3 +14,5 @@ enum State {
 
 
 state = State.moving
+
+health = health + 2 * obj_game_manager.round_number;

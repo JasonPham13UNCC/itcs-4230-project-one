@@ -25,4 +25,19 @@ if (round_start) {
             instance_create_layer(spawn_x, spawn_y, "Instances", obj_wizardgoblin);
         }
     }
+	
+	if (obj_game_manager.round_number >= 6) {
+        var wizard_count = obj_game_manager.round_number - 5; 
+        for (var j = 0; j < wizard_count; j++) {
+            var angle = random(360);
+            var spawn_x = center_x + lengthdir_x(spawn_radius, angle);
+            var spawn_y = center_y + lengthdir_y(spawn_radius, angle);
+            
+            instance_create_layer(spawn_x, spawn_y, "Instances", obj_tallgoblin);
+        }
+    }
+	
+	
 }
+
+

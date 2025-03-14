@@ -6,7 +6,7 @@ if(state == State.standing) {
 }
 
 if(state == State.moving) {
-	sprite_index = spr_skeleton
+	sprite_index = NightBorne_run
 }
 
 
@@ -26,7 +26,7 @@ target = instance_nearest(x,y,obj_maincastle)
 
 	if(state == State.attacking) {
 		speed=0
-		sprite_index = spr_skeleton_attacking
+		sprite_index = NightBorne_attack
 		
 		if(attack) {
 			alarm[0] = attack_cooldown

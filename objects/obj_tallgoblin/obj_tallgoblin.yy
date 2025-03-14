@@ -1,15 +1,24 @@
 {
   "$GMObject":"",
   "%Name":"obj_tallgoblin",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_tallgoblin",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"health","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"attack_damage","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"speed_of_movement","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
+  ],
   "parent":{
     "name":"goblins",
     "path":"folders/Objects/goblins.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_basicgoblin",
+    "path":"objects/obj_basicgoblin/obj_basicgoblin.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +36,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"NightBorne_run",
+    "path":"sprites/NightBorne_run/NightBorne_run.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -9,6 +9,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},"propertyId":{"name":"tower_range","path":"objects/obj_basictower/obj_basictower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1100",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"hp","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},"propertyId":{"name":"att_speed","path":"objects/obj_basictower/obj_basictower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"xscale","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"yscale","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".5",},
   ],
   "parent":{
     "name":"towers",

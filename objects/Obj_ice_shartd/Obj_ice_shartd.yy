@@ -8,7 +8,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"propertyId":{"name":"speed","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"propertyId":{"name":"damage","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"propertyId":{"name":"lifetime","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"800",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"propertyId":{"name":"random_varation","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"65",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basic_attack","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"propertyId":{"name":"random_varation","path":"objects/obj_basic_attack/obj_basic_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
   ],
   "parent":{
     "name":"tower_attacks",
