@@ -13,12 +13,15 @@
     {"name":"inst_6379C1F8","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_39D6EBEB","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_7F884A43","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_3FAD56EC","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_6DDE073F","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_A3782F1","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_5F1FA4EE","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_7E6450CF","path":"rooms/rm_game/rm_game.yy",},
+<<<<<<< Updated upstream
     {"name":"inst_499838EE","path":"rooms/rm_game/rm_game.yy",},
+=======
+    {"name":"inst_41235033","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_66277D57","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_2448341C","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_4B45BFAA","path":"rooms/rm_game/rm_game.yy",},
+>>>>>>> Stashed changes
   ],
   "isDnd":false,
   "layers":[
@@ -34,10 +37,10 @@
         {"$GMRInstance":"v1","%Name":"inst_499838EE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_499838EE","objectId":{"name":"obj_tallgoblin","path":"objects/obj_tallgoblin/obj_tallgoblin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_Shop","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_3FAD56EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FAD56EC","objectId":{"name":"obj_shop_button_tower_basic","path":"objects/obj_shop_button_tower_basic/obj_shop_button_tower_basic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1792.0,"y":160.0,},
-        {"$GMRInstance":"v1","%Name":"inst_6DDE073F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DDE073F","objectId":{"name":"obj_shop_button_tower_fire","path":"objects/obj_shop_button_tower_fire/obj_shop_button_tower_fire.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1792.0,"y":384.0,},
-        {"$GMRInstance":"v1","%Name":"inst_A3782F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A3782F1","objectId":{"name":"obj_shop_button_tower_ice","path":"objects/obj_shop_button_tower_ice/obj_shop_button_tower_ice.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1792.0,"y":608.0,},
-        {"$GMRInstance":"v1","%Name":"inst_5F1FA4EE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F1FA4EE","objectId":{"name":"obj_shop_button_tower_wizard","path":"objects/obj_shop_button_tower_wizard/obj_shop_button_tower_wizard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1792.0,"y":832.0,},
+        {"$GMRInstance":"v1","%Name":"inst_41235033","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41235033","objectId":{"name":"obj_shop_button_tower_basic","path":"objects/obj_shop_button_tower_basic/obj_shop_button_tower_basic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1792.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_66277D57","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66277D57","objectId":{"name":"obj_shop_button_tower_fire","path":"objects/obj_shop_button_tower_fire/obj_shop_button_tower_fire.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1792.0,"y":608.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2448341C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2448341C","objectId":{"name":"obj_shop_button_tower_wizard","path":"objects/obj_shop_button_tower_wizard/obj_shop_button_tower_wizard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1792.0,"y":384.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4B45BFAA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B45BFAA","objectId":{"name":"obj_shop_button_tower_ice","path":"objects/obj_shop_button_tower_ice/obj_shop_button_tower_ice.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1792.0,"y":832.0,},
       ],"layers":[],"name":"Instances_Shop","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":68,"SerialiseWidth":120,"TileCompressedData":[
           -250,-2147483648,1,88,-133,-2147483648,2,6,7,-118,-2147483648,2,22,23,-13,-2147483648,1,88,-104,-2147483648,
