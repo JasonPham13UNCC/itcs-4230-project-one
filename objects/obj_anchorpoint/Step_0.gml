@@ -56,7 +56,7 @@ if(!tower_placed) {
             tower_placed = true;
             visible = false
             score -= 14
-        } else if(score >= 16 && global.buy == "ice tower") {
+        } else if(score >= 16 && global.buy == "wizard tower") {
             var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_wizardtower);
             //instance_destroy(closestAnchor);
             tower_placed = true;
