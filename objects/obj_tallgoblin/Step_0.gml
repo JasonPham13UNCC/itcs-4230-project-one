@@ -30,8 +30,17 @@ target = instance_nearest(x,y,obj_maincastle)
 		sprite_index = NightBorne_attack
 		
 		if(attack) {
-			alarm[0] = attack_cooldown
 			attack= false
+			alarm[0] = attack_cooldown
+			
+			if(instance_exists(target)) {
+				target.hp -= attack_damage; //reduce tower HP
+			}
+			//destroy the tower if HP is 0 or less
+            if (instance_exists(target)  and target.hp <= 0) {
+                instance_destroy(target);
+				state= State.moving
+			} 
 		}
 	
 	}

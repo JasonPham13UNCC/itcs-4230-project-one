@@ -1,4 +1,5 @@
 // Inherit the parent event
+
 event_inherited();
 
 // Create the particle system
