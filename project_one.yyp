@@ -53,6 +53,8 @@
   "resources":[
     {"id":{"name":"ac_button_in","path":"animcurves/ac_button_in/ac_button_in.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"Dificulty_eseay","path":"objects/Dificulty_eseay/Dificulty_eseay.yy",},},
+    {"id":{"name":"Dificuly_hard","path":"objects/Dificuly_hard/Dificuly_hard.yy",},},
     {"id":{"name":"fireball","path":"objects/fireball/fireball.yy",},},
     {"id":{"name":"obj_anchorpoint_dist","path":"objects/obj_anchorpoint_dist/obj_anchorpoint_dist.yy",},},
     {"id":{"name":"obj_anchorpoint","path":"objects/obj_anchorpoint/obj_anchorpoint.yy",},},
