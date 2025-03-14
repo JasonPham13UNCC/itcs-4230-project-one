@@ -13,6 +13,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"attack_damage","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"health","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basicgoblin","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"propertyId":{"name":"speed_of_movement","path":"objects/obj_basicgoblin/obj_basicgoblin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"goblins",

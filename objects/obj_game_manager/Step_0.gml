@@ -1,4 +1,4 @@
-// Check if the main castle instance is gone
+ // Check if the main castle instance is gone
 if (!instance_exists(obj_maincastle)) {
     global.game_over = true;
 }

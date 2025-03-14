@@ -1,4 +1,4 @@
-if (round_start) {
+ if (round_start) {
     obj_game_manager.round_number++;
     round_start = false;
     
@@ -23,7 +23,7 @@ if (round_start) {
             var spawn_y = center_y + lengthdir_y(spawn_radius, angle);
             
             instance_create_layer(spawn_x, spawn_y, "Instances", obj_wizardgoblin);
-        }
+           }
     }
 	
 	if (obj_game_manager.round_number >= 6) {
