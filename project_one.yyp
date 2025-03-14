@@ -97,6 +97,7 @@
     {"id":{"name":"obj_test_room_green","path":"objects/obj_test_room_green/obj_test_room_green.yy",},},
     {"id":{"name":"obj_wizardgoblin","path":"objects/obj_wizardgoblin/obj_wizardgoblin.yy",},},
     {"id":{"name":"obj_wizardtower","path":"objects/obj_wizardtower/obj_wizardtower.yy",},},
+    {"id":{"name":"object_credit","path":"objects/object_credit/object_credit.yy",},},
     {"id":{"name":"object_money","path":"objects/object_money/object_money.yy",},},
     {"id":{"name":"ptc_fire1","path":"particles/ptc_fire1/ptc_fire1.yy",},},
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
