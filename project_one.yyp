@@ -94,6 +94,7 @@
     {"id":{"name":"obj_shop_button_ui","path":"objects/obj_shop_button_ui/obj_shop_button_ui.yy",},},
     {"id":{"name":"obj_shop_tester","path":"objects/obj_shop_tester/obj_shop_tester.yy",},},
     {"id":{"name":"obj_shop_ui","path":"objects/obj_shop_ui/obj_shop_ui.yy",},},
+    {"id":{"name":"obj_skip","path":"objects/obj_skip/obj_skip.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"obj_tallgoblin","path":"objects/obj_tallgoblin/obj_tallgoblin.yy",},},
     {"id":{"name":"obj_test_room_green","path":"objects/obj_test_room_green/obj_test_room_green.yy",},},
@@ -109,7 +110,6 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"test","path":"rooms/test/test.yy",},},
     {"id":{"name":"seq_bacicgoblin_move","path":"sequences/seq_bacicgoblin_move/seq_bacicgoblin_move.yy",},},
     {"id":{"name":"sh_red_vignette","path":"shaders/sh_red_vignette/sh_red_vignette.yy",},},
     {"id":{"name":"shader_grey_shop_buttons","path":"shaders/shader_grey_shop_buttons/shader_grey_shop_buttons.yy",},},
@@ -160,7 +160,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
-    {"roomId":{"name":"test","path":"rooms/test/test.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
