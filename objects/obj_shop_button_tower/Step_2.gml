@@ -1,3 +1,3 @@
 with(all) {
-    depth = -1000
+    depth = -bbox_bottom + (-bbox_right)
 }
