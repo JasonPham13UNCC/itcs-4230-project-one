@@ -73,6 +73,7 @@
     {"id":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},},
     {"id":{"name":"obj_menu_button_back","path":"objects/obj_menu_button_back/obj_menu_button_back.yy",},},
     {"id":{"name":"obj_menu_button_credits","path":"objects/obj_menu_button_credits/obj_menu_button_credits.yy",},},
+    {"id":{"name":"obj_menu_button_home","path":"objects/obj_menu_button_home/obj_menu_button_home.yy",},},
     {"id":{"name":"obj_menu_button_load","path":"objects/obj_menu_button_load/obj_menu_button_load.yy",},},
     {"id":{"name":"obj_menu_button_parent","path":"objects/obj_menu_button_parent/obj_menu_button_parent.yy",},},
     {"id":{"name":"obj_menu_button_pause","path":"objects/obj_menu_button_pause/obj_menu_button_pause.yy",},},
