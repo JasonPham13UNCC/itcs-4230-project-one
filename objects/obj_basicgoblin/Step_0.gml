@@ -1,3 +1,7 @@
+if(state == State.standing) {
+    speed = 0;
+}
+
 if(state == State.moving) {
 	sprite_index = spr_skeleton
 }
@@ -31,11 +35,12 @@ target = instance_nearest(x,y,obj_maincastle)
 	if(instance_exists(target)) {
 		state=State.moving
 		target = instance_nearest(x,y,obj_maincastle)
-	
 	}
 
 	
 
+} else {
+    state = State.standing;
 }
 //attack_timer is used to count down between attacks.
 //if attack_timer > 0, the goblin waits before attacking again.
