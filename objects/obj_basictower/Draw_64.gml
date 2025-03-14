@@ -1,4 +1,4 @@
-if (hp < 150) {
+if (hp < 75) {
     shader_set(sh_red_vignette);
 
 

@@ -1,3 +1,0 @@
-
-
-round_start = true;
