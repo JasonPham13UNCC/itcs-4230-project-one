@@ -5,7 +5,7 @@ if(instance_exists(obj_maincastle)) {
 
 attack = true
 //destroy the tower if HP is 0 or less
-            if (target != noone) {
-                instance_destroy(target);
-				state= State.moving
-			}
+   if (target != noone) {
+
+	state= State.moving
+}
