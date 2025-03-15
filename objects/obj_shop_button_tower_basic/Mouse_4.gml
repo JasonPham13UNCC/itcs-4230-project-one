@@ -5,10 +5,12 @@ var popup = instance_create_layer(display_get_width() / 2, display_get_height() 
 if(global.buy == "basic tower") {
     popup.text = "Cancelled Basic Tower Purchase!";
     global.buy = ""
+    obj_shop_button_tower.anchor_visible = false;
 } else {
     if(score >= 10) {
         popup.text = "Purchasing Basic Tower!";
         global.buy = "basic tower"
+        obj_shop_button_tower.anchor_visible = true;
     } else {
         popup.text = "Not enough money!";
     }

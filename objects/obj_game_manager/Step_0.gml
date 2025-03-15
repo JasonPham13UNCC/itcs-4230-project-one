@@ -10,3 +10,7 @@ if (keyboard_check(vk_alt) && keyboard_check_pressed(ord("M"))) {
 if (keyboard_check(vk_alt) && keyboard_check_pressed(ord("N"))) {
     round_number += 10;
 }
+
+if (keyboard_check(vk_alt) && keyboard_check_pressed(ord("D"))) {
+    instance_destroy(obj_maincastle);
+}

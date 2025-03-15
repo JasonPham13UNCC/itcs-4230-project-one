@@ -1,4 +1,1 @@
-
-
-
 round_start = true;

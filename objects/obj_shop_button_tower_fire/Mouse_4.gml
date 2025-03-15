@@ -5,10 +5,12 @@ var popup = instance_create_layer(display_get_width() / 2, display_get_height() 
 if(global.buy == "fire tower") {
     popup.text = "Cancelled Fire Tower Purchase!";
     global.buy = ""
+    obj_shop_button_tower.anchor_visible = false;
 } else {
     if(score >= 12) {
         popup.text = "Purchasing Fire Tower!";
         global.buy = "fire tower"
+        obj_shop_button_tower.anchor_visible = true;
     } else {
         popup.text = "Not enough money!";
     }
