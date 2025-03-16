@@ -1,5 +1,3 @@
-
-
 // gets health from foe and subtracts that amount and if they die remove them.
 other.health -= damage
 

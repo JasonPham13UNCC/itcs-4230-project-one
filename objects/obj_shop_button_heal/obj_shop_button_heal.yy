@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_depth_sort",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_shop_button_heal",
+  "eventList":[],
   "managed":true,
-  "name":"obj_depth_sort",
+  "name":"obj_shop_button_heal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"shop_ui",
+    "path":"folders/Objects/shop_ui.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_shop_button_heal",
+    "path":"sprites/spr_shop_button_heal/spr_shop_button_heal.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
