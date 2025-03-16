@@ -43,8 +43,6 @@
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"cutscene.mp4","CopyToMask":-1,"filePath":"datafiles","name":"cutscene.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"INTRO STORY 2.mp4","CopyToMask":-1,"filePath":"datafiles","name":"INTRO STORY 2.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"INTRO STORY.mp4","CopyToMask":-1,"filePath":"datafiles","name":"INTRO STORY.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -117,8 +115,8 @@
     {"id":{"name":"sh_red_vignette","path":"shaders/sh_red_vignette/sh_red_vignette.yy",},},
     {"id":{"name":"shader_grey_shop_buttons","path":"shaders/shader_grey_shop_buttons/shader_grey_shop_buttons.yy",},},
     {"id":{"name":"snd_arrow","path":"sounds/snd_arrow/snd_arrow.yy",},},
+    {"id":{"name":"snd_background_music","path":"sounds/snd_background_music/snd_background_music.yy",},},
     {"id":{"name":"snd_goblin_death","path":"sounds/snd_goblin_death/snd_goblin_death.yy",},},
-    {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},},
     {"id":{"name":"GREEEEEEEENNNN","path":"sprites/GREEEEEEEENNNN/GREEEEEEEENNNN.yy",},},
     {"id":{"name":"ice_tower_2","path":"sprites/ice_tower_2/ice_tower_2.yy",},},
     {"id":{"name":"NightBorne_attack","path":"sprites/NightBorne_attack/NightBorne_attack.yy",},},
