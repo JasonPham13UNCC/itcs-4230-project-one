@@ -1,6 +1,6 @@
   //camera_destroy(view_camera[1])
 view_camera[0]=view_camera[1]
- global.game_over=true;
+global.game_over=true;
 
 
 var room_center_x = room_width / 2;
