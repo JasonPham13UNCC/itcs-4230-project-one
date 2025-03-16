@@ -1,4 +1,4 @@
- if (round_start) {
+if (round_start) {
     obj_game_manager.round_number++;
     round_start = false;
     
@@ -13,31 +13,35 @@
         var spawn_y = center_y + lengthdir_y(spawn_radius, angle);
         
         instance_create_layer(spawn_x, spawn_y, "Instances", obj_basicgoblin);
+        mob_count++;
     }
-
+    
     if (obj_game_manager.round_number >= 4) {
-        var wizard_count = obj_game_manager.round_number - 2; 
-        for (var j = 0; j < wizard_count; j++) {
+        var wizards = obj_game_manager.round_number - 2; 
+        for (var j = 0; j < wizards; j++) {
             var angle = random(360);
             var spawn_x = center_x + lengthdir_x(spawn_radius, angle);
             var spawn_y = center_y + lengthdir_y(spawn_radius, angle);
             
             instance_create_layer(spawn_x, spawn_y, "Instances", obj_wizardgoblin);
-           }
+            mob_count++;
+        }
     }
-	
-	if (obj_game_manager.round_number >= 6) {
-        var wizard_count = obj_game_manager.round_number - 5; 
-        for (var j = 0; j < wizard_count; j++) {
+    
+    if (obj_game_manager.round_number >= 6) {
+        var tallgoblins = obj_game_manager.round_number - 5; 
+        for (var j = 0; j < tallgoblins; j++) {
             var angle = random(360);
             var spawn_x = center_x + lengthdir_x(spawn_radius, angle);
             var spawn_y = center_y + lengthdir_y(spawn_radius, angle);
             
             instance_create_layer(spawn_x, spawn_y, "Instances", obj_tallgoblin);
+            mob_count++;
         }
     }
-	
-	
 }
-
-
+if(mob_count == 0 && !popup_showing && obj_game_manager.round_number > 0) {
+    var popup = instance_create_layer(display_get_width() / 2, display_get_height() / 2, "Instances", obj_popup_text);
+    popup.text = "Round Over!";
+    popup_showing = true;
+}

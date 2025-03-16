@@ -6,6 +6,6 @@ if (video != -1) {
         draw_surface(videoData[1], 0, 0);
     } else if (videoStatus == video_status_closed) {
         // Video finished or closed
-        room_goto(rm_game);
+        room_goto(rm_instructions);
     }
 }

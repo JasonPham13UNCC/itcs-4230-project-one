@@ -4,7 +4,8 @@
 other.health -= damage
 
 if(other.health < 0) {
-	instance_destroy(other)
+    obj_spawner.mob_count--;
+	instance_destroy(other);
 }
 
 // destory projectial 

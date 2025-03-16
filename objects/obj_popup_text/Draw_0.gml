@@ -9,3 +9,5 @@ var text_height = string_height(text);
 draw_text(x - text_width / 2, y - text_height / 2, text);
 
 draw_set_alpha(1);
+
+draw_set_color(c_orange);
