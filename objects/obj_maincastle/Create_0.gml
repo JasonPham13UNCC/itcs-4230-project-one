@@ -4,7 +4,6 @@
 image_xscale = xscale
 image_yscale = yscale
 
-
 // Create the particle system
 ps = part_system_create();
 part_system_depth(ps, -10); // Ensures it's rendered above objects

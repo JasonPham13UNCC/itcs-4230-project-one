@@ -6,7 +6,6 @@ target = noone;
 attack = true
 
 enum State {
-    standing,
 	moving,
 	attacking,
 	dying,

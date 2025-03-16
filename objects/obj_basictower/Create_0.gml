@@ -17,9 +17,4 @@ part_type_speed(ptc_fire, 0.5, 1, 0, 0);
 part_type_direction(ptc_fire, 0, 360, 0, 0);
 part_type_blend(ptc_fire, true);
 
-
-
-
 shoot = true
-
-buy = "basic tower"

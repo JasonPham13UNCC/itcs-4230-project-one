@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wizardtower",
+  "%Name":"obj_talltower",
   "eventList":[],
   "managed":true,
-  "name":"obj_wizardtower",
+  "name":"obj_talltower",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"hp","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},"propertyId":{"name":"att_speed","path":"objects/obj_basictower/obj_basictower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},

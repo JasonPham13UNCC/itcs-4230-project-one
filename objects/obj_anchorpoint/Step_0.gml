@@ -1,24 +1,21 @@
 mouseHovering = position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id);
 closestAnchor = instance_nearest(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), obj_anchorpoint); 
 
-if (mouseHovering && large == false) 
-{
-	
-	 origX = closestAnchor.image_xscale;
-  origY = closestAnchor.image_yscale;
+if (mouseHovering && large == false)  { 
+    origX = closestAnchor.image_xscale; 
+    origY = closestAnchor.image_yscale;
   
-  testX = origX * 1.5;
-  testY = origY * 1.5;
+    testX = origX * 1.5;
+    testY = origY * 1.5;
 	
 	if(testX <= largestX && testY <= largestY){
-	closestAnchor.image_xscale *= 1.5;
-	closestAnchor.image_yscale *= 1.5;
-	large = true;
-	closestAnchorOld = closestAnchor;
-	}
-	else{
-		closestAnchor.image_xscale = origX;
-		closestAnchor.image_yscale = origX;
+        closestAnchor.image_xscale *= 1.5;
+        closestAnchor.image_yscale *= 1.5;
+        large = true;
+        closestAnchorOld = closestAnchor;
+    } else {
+        closestAnchor.image_xscale = origX;
+        closestAnchor.image_yscale = origX;
 	}
 }
 
@@ -56,8 +53,8 @@ if(!tower_placed) {
             tower_placed = true;
             closestAnchor.visible = false;
             score -= 14
-        } else if(score >= 16 && global.buy == "wizard tower") {
-            var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_wizardtower);
+        } else if(score >= 16 && global.buy == "tall tower") {
+            var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_talltower);
             //instance_destroy(closestAnchor);
             tower_placed = true;
             closestAnchor.visible = false;
