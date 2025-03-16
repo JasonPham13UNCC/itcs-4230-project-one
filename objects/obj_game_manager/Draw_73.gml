@@ -1,12 +1,11 @@
 if (global.game_over) {
+    var room_center_x = room_width / 2;
+    draw_set_font(fnt_menu);
     draw_set_halign(fa_center);
     draw_set_valign(fa_top);
     draw_set_color(c_red);
-    
-    // Draw "Game Over" message near the top
-    draw_text(room_width / 2, 300, "GAME OVER");
+    draw_text(room_center_x, 350, "GAME OVER");
 
-    // Draw final score a bit below the "Game Over" message
     draw_set_color(c_white);
-    draw_text(room_width / 2, 350, "Final Round: " + string(round_number));
+    draw_text(room_center_x, 425, "Final Round: " + string(round_number));
 }

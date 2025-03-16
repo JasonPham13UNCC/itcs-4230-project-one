@@ -1,6 +1,11 @@
 draw_self();
 
-draw_set_font(fnt_menu);
+if(!instance_exists(obj_menu_restart) || !instance_exists(obj_menu_button_home)) {
+    draw_set_font(fnt_menu);
+    
+} else {
+    draw_set_font(fnt_menu_smaller);
+}
 draw_set_color(c_orange);
 
 draw_set_halign(fa_center);
