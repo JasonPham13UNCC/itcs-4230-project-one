@@ -1,4 +1,4 @@
-y_start = 500;
+y_start = 650;
 y_target = 200;
 anim_time = 0;
 anim_duration = 120;
