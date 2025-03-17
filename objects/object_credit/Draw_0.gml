@@ -1,2 +1,2 @@
 draw_set_valign(fa_center)
-draw_text(1920/4, 1080/2, "CREDITS:\nALBERT BASTAKOTI - GAME DESIGNER \nERIC - ARTIST \nJASON PHAM - PRODUCER\nNATHAN - \nArt Sources: ChatGPT \nCreativeKind \nAstroBob \nSeliel the Shaper ")
+draw_text(1920/4, 1080/2, "CREDITS:\nJASON PHAM - PRODUCER \nERIC MISIAK - ARTIST \nALBERT BASTAKOTI - GAME DESIGNER\nNATHAN SMITH - PROGRAMMER\nArt Sources: \nAdriana Appelhans \nChatGPT \nCreativeKind \nAstroBob \nSeliel the Shaper ")
