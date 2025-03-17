@@ -19,6 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"07381dcf-3c70-4818-bc26-cc5e36adb1ed","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"07381dcf-3c70-4818-bc26-cc5e36adb1ed","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"0d84c71e-3ee7-48ff-a4c2-adc56f018210","blendMode":0,"displayName":"default","isLocked":false,"name":"0d84c71e-3ee7-48ff-a4c2-adc56f018210","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_shop_button_fire_tower",
