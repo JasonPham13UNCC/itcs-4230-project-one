@@ -1,5 +1,6 @@
 // hitting foes
 // detection if foes exist 
+depth = -10000;
 if(instance_exists(obj_basicgoblin)) {
 	if(shoot) {
 		
