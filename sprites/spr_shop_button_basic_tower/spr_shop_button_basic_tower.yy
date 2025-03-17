@@ -19,7 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"858eaef1-74ad-4f3b-914b-22a499e7fb7b","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"858eaef1-74ad-4f3b-914b-22a499e7fb7b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"852d8562-5656-4ce4-98ae-12d3ee678484","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"852d8562-5656-4ce4-98ae-12d3ee678484","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"0d84c71e-3ee7-48ff-a4c2-adc56f018210","blendMode":0,"displayName":"default","isLocked":false,"name":"0d84c71e-3ee7-48ff-a4c2-adc56f018210","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_shop_button_basic_tower",

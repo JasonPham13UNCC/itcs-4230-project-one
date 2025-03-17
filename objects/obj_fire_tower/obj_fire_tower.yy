@@ -9,7 +9,7 @@
   "name":"obj_fire_tower",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},"propertyId":{"name":"bullet","path":"objects/obj_basictower/obj_basictower.yy",},"resource":{"name":"obj_fire_attack","path":"objects/obj_fire_attack/obj_fire_attack.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_fire_attack",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},"propertyId":{"name":"att_speed","path":"objects/obj_basictower/obj_basictower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},"propertyId":{"name":"att_speed","path":"objects/obj_basictower/obj_basictower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basictower","path":"objects/obj_basictower/obj_basictower.yy",},"propertyId":{"name":"tower_range","path":"objects/obj_basictower/obj_basictower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"800",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"hp","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"250",},
   ],
