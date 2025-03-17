@@ -11,6 +11,7 @@ if(global.buy == "basic tower") {
         popup.text = "Purchasing Basic Tower!";
         global.buy = "basic tower"
         obj_shop_button_tower.anchor_visible = true;
+        
     } else {
         popup.text = "Not enough money!";
     }

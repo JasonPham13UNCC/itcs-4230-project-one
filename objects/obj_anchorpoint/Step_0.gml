@@ -5,12 +5,13 @@ if (mouseHovering && large == false)  {
     origX = closestAnchor.image_xscale; 
     origY = closestAnchor.image_yscale;
   
-    testX = origX * 1.5;
-    testY = origY * 1.5;
+    testX = origX * 1.10;
+    testY = origY * 1.10;
 	
-	if(testX <= largestX && testY <= largestY){
-        closestAnchor.image_xscale *= 1.5;
-        closestAnchor.image_yscale *= 1.5;
+	if(testX <= largestX && testY <= largestY) {
+        closestAnchor.sprite_index = spr_anchorpoint_green;
+        closestAnchor.image_xscale *= 1.10;
+        closestAnchor.image_yscale *= 1.10;
         large = true;
         closestAnchorOld = closestAnchor;
     } else {
@@ -19,8 +20,9 @@ if (mouseHovering && large == false)  {
 	}
 }
 
-if(large == true && mouseHovering == false){
-		closestAnchor.image_xscale = origX;
+if(large == true && mouseHovering == false) { 
+    closestAnchor.sprite_index = spr_anchorpoint;
+    closestAnchor.image_xscale = origX;
 	closestAnchor.image_yscale = origY;
 	large = false;
 }
@@ -37,25 +39,21 @@ if(!tower_placed) {
         //Make conditionals for each tower, basic, fire, ice, wizard
         if(score >= 10 && global.buy == "basic tower") {
             var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_basictower);
-            //instance_destroy(closestAnchor);
             tower_placed = true;
             closestAnchor.visible = false;
             score -= 10
         } else if(score >= 12 && global.buy == "fire tower") {
             var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_fire_tower);
-            //instance_destroy(closestAnchor);
             tower_placed = true;
             closestAnchor.visible = false;
             score -= 12
         } else if(score >= 14 && global.buy == "ice tower") {
             var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_ice_tower);
-            //instance_destroy(closestAnchor);
             tower_placed = true;
             closestAnchor.visible = false;
             score -= 14
         } else if(score >= 16 && global.buy == "tall tower") {
             var current_tower = instance_create_layer(closestAnchor.x, closestAnchor.y, "Instances" ,obj_talltower);
-            //instance_destroy(closestAnchor);
             tower_placed = true;
             closestAnchor.visible = false;
             score -= 16

@@ -7,7 +7,7 @@ if (keyboard_check(vk_alt) && keyboard_check_pressed(ord("M"))) {
     score += 100;
 }
 
-if (keyboard_check(vk_alt) && keyboard_check_pressed(ord("N"))) {
+if (keyboard_check(vk_alt) && keyboard_check_pressed(ord("N")) && obj_spawner.mob_count == 0) {
     round_number += 10;
 }
 

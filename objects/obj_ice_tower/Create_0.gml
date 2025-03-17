@@ -18,6 +18,3 @@ part_type_direction(ptc_fire, 0, 360, 0, 0);
 part_type_blend(ptc_fire, true);
 
 shoot = true
-
-spr_tower.image_xscale *= 1.75;
-spr_tower.image_yscale *= 1.75;
