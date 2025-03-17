@@ -7,7 +7,7 @@ if(global.buy == "ice tower") {
     global.buy = ""
     obj_shop_button_tower.anchor_visible = false;
 } else {
-    if(score >= 14) {
+    if(score >= 75) {
         popup.text = "Purchasing Ice Tower!";
         global.buy = "ice tower"
         obj_shop_button_tower.anchor_visible = true;

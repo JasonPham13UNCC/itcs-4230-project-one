@@ -19,6 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"86b59e2d-3f20-4894-8753-4d5aadf500ca","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"86b59e2d-3f20-4894-8753-4d5aadf500ca","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"0d84c71e-3ee7-48ff-a4c2-adc56f018210","blendMode":0,"displayName":"default","isLocked":false,"name":"0d84c71e-3ee7-48ff-a4c2-adc56f018210","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_shop_button_wizard_tower",

@@ -157,6 +157,7 @@
     {"id":{"name":"spr_shop_button","path":"sprites/spr_shop_button/spr_shop_button.yy",},},
     {"id":{"name":"spr_skeleton_attacking","path":"sprites/spr_skeleton_attacking/spr_skeleton_attacking.yy",},},
     {"id":{"name":"spr_skeleton","path":"sprites/spr_skeleton/spr_skeleton.yy",},},
+    {"id":{"name":"spr_title_art_background","path":"sprites/spr_title_art_background/spr_title_art_background.yy",},},
     {"id":{"name":"spr_title_art","path":"sprites/spr_title_art/spr_title_art.yy",},},
     {"id":{"name":"spr_tower","path":"sprites/spr_tower/spr_tower.yy",},},
     {"id":{"name":"spr_wind","path":"sprites/spr_wind/spr_wind.yy",},},

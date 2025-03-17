@@ -7,7 +7,7 @@ if(global.buy == "tall tower") {
     global.buy = ""
     obj_shop_button_tower.anchor_visible = false;
 } else {
-    if(score >= 16) {
+    if(score >= 30) {
         popup.text = "Purchasing Tall Tower!";
         global.buy = "tall tower"
         obj_shop_button_tower.anchor_visible = true;

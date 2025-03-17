@@ -11,7 +11,7 @@
   "managed":true,
   "name":"obj_basictower",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"hp","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"hp","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"xscale","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_maincastle","path":"objects/obj_maincastle/obj_maincastle.yy",},"propertyId":{"name":"yscale","path":"objects/obj_maincastle/obj_maincastle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".5",},
   ],
